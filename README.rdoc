@@ -1,0 +1,42 @@
+= detached_counter_cache
+
+== Contributing to detached_counter_cache
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so your changes don't get unintentionally broken in a future version.
+* Please try not to mess with the Rakefile, version, gemspec or changelog. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so the mater repository maintainer can cherry-pick around it.
+
+=== Setting up development environment
+
+rvm or similar is recommended to partition a development environment.
+An .rvmrc file is not included in the project by default.
+
+Use bundler to install requirements:
+
+  $ bundle install
+
+=== Running Tests
+
+Prepare a database.yml for your local tests:
+
+  $ cp test/database.yml.example test/database.yml
+
+Create the database e.g. for PostgreSQL:
+
+  $ psql postgres -c "create database detached_counter_cache_test with owner postgres encoding='UTF8'"
+
+Run tests:
+
+  $ rake test
+  # or..
+  $ bundle exec rake test
+
+NB: 'test' is actually the default rake task.
+
+== Copyright
+
+See MIT-LICENSE for details.
