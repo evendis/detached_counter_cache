@@ -1,0 +1,4 @@
+detached_counter_cache_test:
+  adapter: postgresql
+  database: detached_counter_cache_test
+  username: postgres

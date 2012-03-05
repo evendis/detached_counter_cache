@@ -1,4 +1,4 @@
-= detached_counter_cache
+= detached_counter_cache {<img src="https://secure.travis-ci.org/evendis/detached_counter_cache.png" />}[http://travis-ci.org/evendis/detached_counter_cache]
 
 == Contributing to detached_counter_cache
 
@@ -21,9 +21,7 @@ Use bundler to install requirements:
 
 === Running Tests
 
-Prepare a database.yml for your local tests:
-
-  $ cp test/database.yml.example test/database.yml
+Prepare a database.yml for your local tests: modify test/database.yml as required.
 
 Create the database e.g. for PostgreSQL:
 
