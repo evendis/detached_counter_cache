@@ -5,6 +5,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency("pg", "~> 0.10.0")
   s.add_runtime_dependency("activerecord", "~> 3.0.8")
   s.name = "detached_counter_cache"
+  s.authors = ["stopdropandrew","kamal","evendis"]
   s.summary = "Stores cached counters in a separate table"
   s.description = "Stores cached counters in a separate table"
   s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "install.rb"]
