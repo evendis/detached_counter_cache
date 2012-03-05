@@ -1,5 +1,7 @@
 detached_counter_cache_test:
-  adapter: mysql
+  adapter: postgresql
+  # or:
+  #adapter: mysql
   host: localhost
   database: detached_counter_cache_test
   username: andrew

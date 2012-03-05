@@ -2,6 +2,7 @@
 # project in your rails apps through git.
 Gem::Specification.new do |s|
   s.add_development_dependency("mocha")
+  s.add_development_dependency("rake", "~> 0.9.2.2")
   s.add_development_dependency("pg", "~> 0.10.0")
   s.add_runtime_dependency("activerecord", "~> 3.0.8")
   s.name = "detached_counter_cache"
