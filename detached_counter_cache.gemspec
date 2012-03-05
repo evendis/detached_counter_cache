@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors = ["stopdropandrew","kamal","evendis"]
   s.summary = "Stores cached counters in a separate table"
   s.description = "Stores cached counters in a separate table"
-  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "install.rb"]
+  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "install.rb", "README.rdoc"]
   s.version = "0.0.1"
 end
 
